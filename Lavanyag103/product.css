@@ -1,0 +1,229 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:white;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color:#54b881;
+    color: #fff;
+    padding: 8px 0;
+    height: 100px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo1
+{
+    width: 70px;
+    display: inline;
+}
+header .logo {
+    font-size: 24px;
+    padding-right:690px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #ddd;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.product-details {
+    display: flex;
+    background-color:rgb(212, 153, 153);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.product-images {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-images .main-image {
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid #ddd;
+}
+
+.thumbnail-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.thumbnail-container .thumbnail {
+    width: 100px;
+    margin: 0 5px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    transition: transform 0.3s;
+}
+
+.thumbnail-container .thumbnail:hover {
+    transform: scale(1.1);
+}
+
+.product-info {
+    flex: 1;
+    padding: 20px;
+}
+
+.product-info h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.product-info .price {
+    font-size: 24px;
+    color: #b12704;
+    margin-bottom: 20px;
+}
+
+.product-info .description {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+.quantity
+{
+    background-color: aqua;
+}
+
+.add-to-cart {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.add-to-cart label {
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.add-to-cart input {
+    width: 50px;
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.add-to-cart button {
+    padding: 10px 20px;
+    background-color: #707070;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart button:hover {
+    background-color: #1f1d1d;
+}
+
+.related-products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.related-products .related-product {
+    width: 30%;
+    max-width: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.related-products .related-product img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    transition: transform 0.3s;
+}
+
+.related-products .related-product img:hover {
+    transform: scale(1.05);
+}
+
+.related-products .related-product p {
+    margin: 10px 0;
+}
+.customer-reviews {
+    margin-top: 40px;
+    background-color: #e7cba0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.customer-reviews h2 {
+    margin-bottom: 20px;
+}
+
+.review {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.review:last-child {
+    border-bottom: none;
+}
+
+.review-header {
+    display: flex;
+    align-items: center;
+}
+
+.review-header .star-rating {
+    margin-right: 10px;
+}
+
+.star-rating .star {
+    color: #d91919;
+    font-size: 18px;
+}
+
+.review-header h3 {
+    margin: 0;
+}
+
+.review-text {
+    margin-top: 10px;
+}
